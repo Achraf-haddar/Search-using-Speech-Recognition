@@ -6,7 +6,7 @@ r2 = sr.Recognizer()
 r3 = sr.Recognizer()
 
 with sr.Microphone() as source:
-    print('[search edureka: search youtube]')
+    print('[Search youtube]')
     print('speak now')
     audio = r3.listen(source)
 
